@@ -1,2 +1,2 @@
 # make_theme
-Themify virtual machine for cybersecurity training
+Python script to themify virtual machine for cybersecurity training
