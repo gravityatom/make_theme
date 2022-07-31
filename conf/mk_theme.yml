@@ -1,0 +1,6 @@
+app_name: make_theme
+default_user: demo
+default_hostname: ubuntu
+default_bg: /usr/share/backgrounds/warty-final-ubuntu.png
+log_file: log/make_theme.log
+
