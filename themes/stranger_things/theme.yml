@@ -1,0 +1,53 @@
+hostname: hawkins
+theme_name: Stranger things
+background_image: stranger_things_logo.png
+readme_template: readme.tmpl
+default_user: hopper
+
+admins:
+    hopper: 
+        name: Hopper
+        username: hopper
+        password: hopper123
+    elle:
+        name: Elle
+        username: elle
+        password: elle123 
+    carlosr:
+        name: Carlos
+        username: carlosr
+        password: elle123 
+
+users:
+    will: 
+        name: Will
+        username: will
+        password: will1234
+    nancy:
+        name: Nancy
+        username: nancy 
+        password: nancy1235 
+    joemama:
+        name: Joe 
+        username: joemama
+        password: nancy1235 
+
+software:
+    - nmap
+    - wireshark
+    - samba
+    - tree
+    - auditd
+
+media_files:
+    - /home/hopper/Music/test.mpg
+
+services:
+    - ftp
+    - sshd
+    - samba
+
+readme:
+    company: Hawkins Inc
+    services: sshd, postfix
+    software: firefox 
