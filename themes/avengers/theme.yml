@@ -30,18 +30,18 @@ users:
     password: blackpanther123
 
 software:
-  -nmap
-  -wireshark
-  -openssh-server
-  -samba
-  -tree
-  -auditd
+  - nmap
+  - wireshark
+  - openssh-server
+  - samba
+  - tree
+  - auditd
 media_files:
   - /home/hopper/Music/test.mpg
 services:
-  -ftp
-  -sshd
-  -samba
+  - ftp
+  - sshd
+  - samba
 readme:
   company: Avengers
   services: sshd, postfix
