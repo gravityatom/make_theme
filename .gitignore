@@ -1,3 +1,8 @@
+# make_theme specific files
+# theme README.html will be generated (and overwritten) from templates.
+# These build artifacts do not need to be version controlled.
+themes/*/README.html
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
