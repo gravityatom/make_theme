@@ -6,43 +6,44 @@ readme_template: readme.tmpl
 default_user: spiderman
 
 admins:
-	ironman:
-		name: Iron man
-		username: ironman
-		password: stark123
-	captainamerica:
-		name: Captain America
-		username: captainamerica
-		
+  ironman:
+    name: Iron man
+    username: ironman
+    password: stark123
+  captainamerica:
+    name: Captain America
+    username: captainamerica
+    password: rogers123
+
 users:
-	spiderman:
-		name: Spider-man
-		username: spiderman
-		password: spiderman123
-	thor:
-		name: Thor
-		username: thor
-		password: thor123
-	blackpanther:
-		name: Black Panther
-		username: blackpanther
-		password: blackpanther123
-		
+  spiderman:
+    name: Spider-man
+    username: spiderman
+    password: spiderman123
+  thor:
+    name: Thor
+    username: thor
+    password: thor123
+  blackpanther:
+    name: Black Panther
+    username: blackpanther
+    password: blackpanther123
+
 software:
-	-nmap
-	-wireshark
-	-openssh-server
-	-samba
-	-tree
-	-auditd
+  - nmap
+  - wireshark
+  - openssh-server
+  - samba
+  - tree
+  - auditd
 media_files:
-	- /home/hopper/Music/test.mpg
+  - /home/hopper/Music/test.mpg
 services:
-	-ftp
-	-sshd
-	-samba
+  - ftp
+  - sshd
+  - samba
 readme:
-	company: Avengers
-	services: sshd, postfix
-	software: firefox
+  company: Avengers
+  services: sshd, postfix
+  software: firefox
 

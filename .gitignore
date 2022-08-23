@@ -1,3 +1,13 @@
+# make_theme specific files
+# theme README.html will be generated (and overwritten) from templates.
+# These build artifacts do not need to be version controlled.
+themes/*/README.html
+# Functionally duplicates *.log from Django section with current script,
+# but allows adding .warn or .error log files to log/ folder later
+log/*
+!log/.gitkeep
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

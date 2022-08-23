@@ -236,7 +236,7 @@ def install_software(software_list):
 
         logger.info(f"[install_software()] sw: {sw}")
 
-        cmd_sw_install = "/usr/bin/apt-get install -y " + sw
+        cmd_sw_install = "DEBIAN_FRONTEND=noninteractive /usr/bin/apt-get install -y " + sw
         logger.info(f"[install_software()] cmd_sw_install: {cmd_sw_install}")
 
         returned_value = subprocess.call(cmd_sw_install, shell=True)
@@ -408,8 +408,8 @@ def set_login_user(userid):
 
     if backup_file_exists is False:
         ## Make a backup copy of the current 
-        logger.info(f"[set_login_user()] making a backup copy of ",
-                    f" {custom_login_file}")
+        logger.info(f"[set_login_user()] making a backup copy of "
+                    f"{custom_login_file}")
 
         shutil.copyfile(custom_login_file, custom_login_file + '.mktheme')
 
