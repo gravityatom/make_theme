@@ -236,7 +236,7 @@ def install_software(software_list):
 
         logger.info(f"[install_software()] sw: {sw}")
 
-        cmd_sw_install = "/usr/bin/apt-get install -y " + sw
+        cmd_sw_install = "DEBIAN_FRONTEND=noninteractive /usr/bin/apt-get install -y " + sw
         logger.info(f"[install_software()] cmd_sw_install: {cmd_sw_install}")
 
         returned_value = subprocess.call(cmd_sw_install, shell=True)
