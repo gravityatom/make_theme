@@ -13,7 +13,8 @@ admins:
   captainamerica:
     name: Captain America
     username: captainamerica
-    
+    password: rogers123
+
 users:
   spiderman:
     name: Spider-man
@@ -27,7 +28,7 @@ users:
     name: Black Panther
     username: blackpanther
     password: blackpanther123
-    
+
 software:
   -nmap
   -wireshark
