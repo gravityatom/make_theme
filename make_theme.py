@@ -408,8 +408,8 @@ def set_login_user(userid):
 
     if backup_file_exists is False:
         ## Make a backup copy of the current 
-        logger.info(f"[set_login_user()] making a backup copy of ",
-                    f" {custom_login_file}")
+        logger.info(f"[set_login_user()] making a backup copy of "
+                    f"{custom_login_file}")
 
         shutil.copyfile(custom_login_file, custom_login_file + '.mktheme')
 
